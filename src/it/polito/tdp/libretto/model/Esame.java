@@ -26,6 +26,11 @@ public class Esame {
 	private int voto ;
 	private LocalDate dataSuperamento ;
 	
+	public Esame(String codice){
+		super();
+		this.codice = codice;
+	}
+	
 	/**
 	 * Nuovo esame, non ancora superato
 	 * @param codice codice dell'esame
